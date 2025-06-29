@@ -134,7 +134,7 @@ class BossRush {
         o.define(type);
         o.define({ DANGER: 10 });
         o.team = TEAM_BLUE;
-        o.controllers.push(new ioTypes.nearestDifferentMaster(o), new ioTypes.wanderAroundMap(0, { lookAtGoal: true }));
+        o.controllers.push(new ioTypes.nearestDifferentMaster(o), new ioTypes.wanderAroundMap(0, { lookAtGoal: true }), new ioTypes.moveToCenter());
         o.name = ran.chooseBossName('castle');
         o.FOV = 10;
         o.settings.broadcastMessage = `${o.name} has fallen!`;

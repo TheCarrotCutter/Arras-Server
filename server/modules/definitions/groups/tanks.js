@@ -1540,7 +1540,7 @@ Class.triAngle = {
 Class.auto3 = makeRadialAuto("autoTankGun", {isTurret: true, danger: 6, label: "Auto-3"})
 
 // Hexa Tank upgrades
-Class.g.Tank = {
+Class.octoTank = {
     PARENT: "genericTank",
     LABEL: "Octo Tank",
     DANGER: 7,

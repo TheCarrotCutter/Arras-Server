@@ -1474,7 +1474,7 @@ Class.focal = {
         {
             POSITION: [25, 7, 1, 0, 0, 0, 0],
             PROPERTIES: {
-                SHOOT_SETTINGS: combineStats([g.basic, g.pelleter, g.lowPower, g.machineGun, { recoil: 1.15 }]),
+                SHOOT_SETTINGS: combineStats([g.basic, g.pelleter, g.lowPower, g.machineGun, { recoil: 1.15 }, g.opTank]),
                 TYPE: "bullet",
             },
         },
@@ -1540,7 +1540,7 @@ Class.triAngle = {
 Class.auto3 = makeRadialAuto("autoTankGun", {isTurret: true, danger: 6, label: "Auto-3"})
 
 // Hexa Tank upgrades
-Class.octoTank = {
+Class.g.Tank = {
     PARENT: "genericTank",
     LABEL: "Octo Tank",
     DANGER: 7,

@@ -172,6 +172,33 @@ class io_moveInCircles extends IO {
         }
     }
 }
+class io_moveToCenter extends IO {
+    constructor(body) {
+        super(body)
+        this.acceptsFromTop = false
+        this.timer = ran.irandom(5) + 3
+        this.pathAngle = ran.random(2 * Math.PI);
+        this.goal = {
+            x: 0,
+            y: 0
+        }
+    }
+    think() {
+        if (!this.timer--) {
+            this.timer = 5
+            this.goal = {
+                x: 0,
+                y: 0
+            }
+            // turnWithSpeed turn speed (but condensed over 5 ticks)
+            this.pathAngle -= ((this.body.velocity.length / 90) * Math.PI) / Config.runSpeed * 5;
+        }
+        return {
+            goal: this.goal,
+            power: this.body.ACCELERATION > 0.1 ? 0.2 : 1
+        }
+    }
+}
 class io_listenToPlayer extends IO {
     constructor(b, opts = { static: false }) {
         super(b);

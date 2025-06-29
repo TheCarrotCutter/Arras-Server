@@ -1474,7 +1474,7 @@ Class.focal = {
         {
             POSITION: [25, 7, 1, 0, 0, 0, 0],
             PROPERTIES: {
-                SHOOT_SETTINGS: combineStats([g.basic, g.pelleter, g.lowPower, g.machineGun, { recoil: 1.15 }, g.opTank]),
+                SHOOT_SETTINGS: combineStats([g.basic, g.pelleter, g.lowPower, g.machineGun, { recoil: 1.15 }, g.op]),
                 TYPE: "bullet",
             },
         },

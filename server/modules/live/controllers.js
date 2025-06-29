@@ -1053,6 +1053,7 @@ let ioTypes = {
     mapTargetToGoal: io_mapTargetToGoal,
     bossRushAI: io_bossRushAI,
     moveInCircles: io_moveInCircles,
+    moveToCenter: io_moveToCenter,
     boomerang: io_boomerang,
     formulaTarget: io_formulaTarget,
     orbit: io_orbit,

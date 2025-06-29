@@ -12,7 +12,7 @@ room = [
     [  o ,  o ,  o ,WALL,  _ ,  _ ,  s ,  n ,  n ,  n ,  n ,  n ,  s ,  _ ,  _ ,WALL,  o ,  o ,  o ],
     [WALL,WALL,WALL,WALL,WALL,  _ ,  n ,  _ ,  _ ,  _ ,  _ ,  _ ,  n ,  _ ,WALL,WALL,WALL,WALL,WALL],
     [WALL,  b ,  b ,  b ,  _ ,  _ ,  n ,  _ ,  _ ,  _ ,  _ ,  _ ,  n ,  _ ,  _ ,  b ,  b ,  b ,WALL],
-    [WALL,  b ,  b ,  b ,  _ ,  _ ,  n ,  _ ,  _ ,  _ ,  _ ,  _ ,  n ,  _ ,  _ ,  b ,  b ,  b ,WALL],
+    [WALL,  b ,  b ,  b ,  _ ,  _ ,  n ,  _ ,  _ ,  s ,  _ ,  _ ,  n ,  _ ,  _ ,  b ,  b ,  b ,WALL],
     [WALL,  b ,  b ,  b ,  _ ,  _ ,  n ,  _ ,  _ ,  _ ,  _ ,  _ ,  n ,  _ ,  _ ,  b ,  b ,  b ,WALL],
     [WALL,WALL,WALL,WALL,WALL,  _ ,  n ,  _ ,  _ ,  _ ,  _ ,  _ ,  n ,  _ ,WALL,WALL,WALL,WALL,WALL],
     [  o ,  o ,  o ,WALL,  _ ,  _ ,  s ,  n ,  n ,  n ,  n ,  n ,  s ,  _ ,  _ ,WALL,  o ,  o ,  o ],

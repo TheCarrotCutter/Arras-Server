@@ -180,8 +180,8 @@ class io_moveToCenter extends IO {
     think() {
         return {
             goal: {
-                x: this.room.center,
-                y: this.room.center,
+                x: room.center.x,
+                y: room.center.y,
             },
             main: false,
             alt: false,

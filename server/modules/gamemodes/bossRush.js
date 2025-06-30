@@ -195,7 +195,7 @@ class BossRush {
         enemy.team = TEAM_ENEMIES;
         enemy.FOV = 10;
         enemy.refreshBodyAttributes();
-        enemy.controllers.push(new ioTypes.doNothing(enemy));
+        enemy.controllers.push(new ioTypes.bossRushAI(enemy));
 
         this.remainingEnemies++;
         enemy.on('dead', () => {

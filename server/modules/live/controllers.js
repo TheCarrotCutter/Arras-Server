@@ -185,7 +185,7 @@ class io_moveToCenter extends IO {
             },
             main: false,
             alt: false,
-            fire: false,
+            fire: true,
         }
     }
 }
